@@ -1,0 +1,131 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/213/803/non_2x/rose-gold-low-poly-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 218, 185, 0.8);
+    font-family: Courier, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    background-color: rgba(255, 192, 203, 0.5);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.product:hover .overlay {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: translateY(-100%);
+}
+
+.overlay-content {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.overlay-content h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay-content p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.product img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.5s;
+}
+
+.product img:hover {
+    transform: scale(1.5);
+}
+
+#cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-total {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(255, 192, 203, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

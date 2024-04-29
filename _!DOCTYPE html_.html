@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BOUTIQUE COLLECTION</h1>
+            <p>Encontre as últimas tendências em moda feminina e masculina!</p>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">Feminino</a></li>
+                    <li><a href="#" class="nav-link">Masculino</a></li>
+                    <li><a href="#" class="nav-link">Infantil</a></li>
+                    <li><a href="#" class="nav-link">Acessórios</a></li>
+                    <li><a href="#" class="nav-link">Sobre</a></li>
+                    <li><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+
+<div id="cart">
+    <h2>Carrinho</h2>
+    <ul id="cart-items">
+        <!-- Itens do carrinho serão adicionados dinamicamente aqui -->
+    </ul>
+    <p>Total: R$ <span id="cart-total">0.00</span></p>
+  </div>
+  
+  
+  
+  
+  <section>
+    <h2>Produtos em Destaque</h2>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://cdn.awsli.com.br/1062/1062283/produto/211107450/fotos-loja-2023-04-03t133927-083-fhmnhm.jpg" alt="Produto 2">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Jaqueta de Couro</h3>
+              <p>Estilo e conforto para qualquer ocasião.</p>
+              <p>Preço: R$229,99</p>
+              <button class="add-to-cart" data-name="Jaqueta de Couro" data-price="229.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://acdn.mitiendanube.com/stores/001/374/487/products/macacao-social-pantalona-longo-com-cinto-diozzi-2-cf94df08d6cb94a16616965237045751-1024-1024.jpeg" alt="Produto 3">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Macacão Longo</h3>/* Estilos para o botão "Adicionar ao Carrinho" */
+              .add-to-cart {
+                  background-color: #FFC0CB; /* Cor de rosa (rosa claro) */
+                  color: #fff; /* Texto em branco */
+                  border: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  transition: background-color 0.3s ease;
+              }
+            
+              .add-to-cart:hover {
+                  background-color: #FF69B4; /* Cor de rosa mais intensa ao passar o mouse */
+              }
+            
+              <p>Use-o com confiança e certifique-se de se sentir confortável na sua roupa.</p>
+              <p>Preço: R$169,99</p>
+              <button class="add-to-cart" data-name="Macacão Longo" data-price="169.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://d5gag3xtge2og.cloudfront.net/producao/33490467/G/whatsapp_image_2023_05_16_at_12.51.39_1.jpeg" alt="Produto 4">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Calça Pantalona</h3>
+              <p>Use-o com confiança e certifique-se de se sentir confortável na sua roupa.</p>
+              <p>Preço: R$119,99</p>
+              <button class="add-to-cart" data-name="Calça Pantalona" data-price="119.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://img.irroba.com.br/fit-in/805x1027/filters:fill(fff):quality(80)/laminaco/catalog/api/app-12602/64cece126ed93.jpg" alt="Produto 5">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Conjunto de Alfaiataria</h3>
+              <p>Deixe seus dias mais chic e sofisticados.</p>
+              <p>Preço: R$249,99</p>
+              <button class="add-to-cart" data-name="Conjunto de Alfaiataria" data-price="249.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://cdn.sistemawbuy.com.br/arquivos/18dc6b95b01ac2dc3b958bebc2a16227/produtos/6509ed3b0333c/whatsapp-image-2023-09-18-at-19-12-44-6509ed3b6e502_mini.jpeg" alt="Produto 6">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Short Saia de Alfaiataria</h3>
+              <p>Confortável e útil para qualquer ocasião!</p>
+              <p>Preço: R$79,99</p>
+              <button class="add-to-cart" data-name="Short Saia de Alfaiataria" data-price="79.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://acdn.mitiendanube.com/stores/001/607/146/products/vestidopretopaetes1-ba35ca86dec663998216668591058282-1024-1024.jpg" alt="Produto 7">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Vestido Curto Paetês</h3>
+              <p>A peça é democrática e cai bem tanto em ocasiões diurnas quanto noturnas.</p>
+              <p>Preço: R$159,99</p>
+              <button class="add-to-cart" data-name="Vestido Curto Paetês" data-price="159.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="product">
+      <img src="https://img.ltwebstatic.com/images3_spmp/2023/08/24/1f/1692878573ec1973c8b0b378fe1e892d4a14b9221e_thumbnail_720x.jpg" alt="Produto 8">
+      <div class="overlay">
+          <div class="overlay-content">
+              <h3>Conjunto saia e cropt curto alcinha Franja Strass</h3>
+              <p>Deixe suas baladas mais chiques.</p>
+              <p>Preço: R$139,99</p>
+              <button class="add-to-cart" data-name="Conjunto saia e cropt curto alcinha Franja Strass" data-price="139.99">Adicionar ao Carrinho</button>
+          </div>
+      </div>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Adicione mais produtos conforme necessário -->
+  
+  
+  
+  
+  </section>
+  
+
+    <footer>
+        <p>Cadastre-se para receber nossas últimas novidades:</p>
+        <form id="newsletter-form">
+            <input type="email" id="email-input" placeholder="Seu e-mail" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Direitos autorais © 2024 Loja de Roupas da Moda. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
